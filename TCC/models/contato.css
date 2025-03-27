@@ -27,6 +27,9 @@ footer {
     background-color: rgb(148, 148, 148);
     position: fixed;
     bottom: 0;
-    width: 99%;
-    border-radius: 10px;
+    width: 99%; 
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    padding: 10px 0;
+    box-sizing: border-box;
 }
