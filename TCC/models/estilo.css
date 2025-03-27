@@ -15,7 +15,8 @@ header {
     font-size: 20px; 
     font-style: italic;  
     color: white;
-    margin-left: 21em;
+    margin-left: 280px;
+    margin-top: 10px;
 }
 .econo {
     text-align: center;
@@ -36,4 +37,36 @@ footer {
     height: 30px;
     color: rgb(49, 49, 49);
     border-radius: 20px;
+}
+.imagen {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 280px;
+    left: 85px;
+    border-radius: 10px;
+}
+.grande {
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    font-size: 20px;
+    background-color: rgb(185, 185, 185);
+    border-radius: 10px;
+}
+.imagen2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 280px;
+    left: 400px;
+    border-radius: 10px;
+}
+.grande2 {
+    position: absolute;
+    top: 400px;
+    left: 330px;
+    font-size: 20px;
+    background-color: rgb(185, 185, 185);
+    border-radius: 10px;
 }
