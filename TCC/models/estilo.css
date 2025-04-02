@@ -15,9 +15,7 @@ header {
     font-size: 20px; 
     font-style: italic;  
     color: white;
-    margin-left: 450px;
-    margin-top: 50px; 
-    
+    margin-left: 22%; 
 }
 .econo {
     text-align: center;
@@ -32,7 +30,7 @@ footer {
     width: 99%; 
     border-radius: 10px 10px 0 0;
     margin: 0;
-    padding: 10px 0;
+    padding: 5px;
     box-sizing: border-box;
 }
 .parte {
@@ -49,22 +47,30 @@ footer {
     margin: 0 auto;
     margin-bottom: 0; 
     position: relative; 
-    bottom: -200px; 
     padding: 10px; 
+    align-items: center;
+
 }
 
 .image-item {
     text-align: center;
+    font-family: "Inconsolata", monospace;
+    font-size: 15px;
 }
-
+.image-item:hover {
+    background-color: rgba(184, 184, 184, 0.664);
+    border-radius: 120px;
+}
 .image-item img {
     width: 200px;
     height: auto;
     border-radius: 8px;
+    
 }
 
 .image-item p {
     margin-top: 8px;
     font-size: 14px;
     color: #333;
+    
 }
